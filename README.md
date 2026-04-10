@@ -110,12 +110,6 @@ El análisis permitió identificar distintos grupos de mercados financieros:
 * Comportamientos propios del mercado asiático
 * Ejemplo: China, Japón, Corea
 
-### 💡 Insights clave
-
-* Los mercados se agrupan según su **perfil de riesgo y comportamiento histórico**
-* Existen patrones **regionales y estructurales**
-* El clustering basado en correlaciones revela relaciones importantes para **diversificación de portafolios**
-
 ---
 
 ## 📊 Visualizaciones
@@ -127,19 +121,6 @@ El proyecto incluye:
 * Mapa de correlaciones (heatmap)
 * Dendrograma jerárquico
 * Dendrograma basado en correlaciones
-
----
-
-## 🛠️ Tecnologías utilizadas
-
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Matplotlib
-* Seaborn
-* SciPy
-* yfinance
 
 ---
 
