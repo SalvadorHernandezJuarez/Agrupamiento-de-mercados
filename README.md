@@ -6,16 +6,6 @@ El objetivo es descubrir **patrones ocultos en los mercados**, permitiendo enten
 
 ---
 
-## Objetivos
-
-* Obtener datos históricos de mercados financieros globales
-* Construir variables financieras relevantes
-* Aplicar algoritmos de clustering
-* Visualizar relaciones entre mercados
-* Interpretar resultados desde un enfoque financiero
-
----
-
 ## Mercados Analizados
 
 Se analizaron los siguientes índices bursátiles:
