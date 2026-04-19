@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Mercados Analizados](#mercados-analizados)
@@ -18,7 +18,7 @@
 
 ---
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Los mercados financieros globales no se comportan de forma aislada: algunos se mueven en sincronía, otros presentan dinámicas completamente distintas. Este proyecto aplica técnicas de **Machine Learning no supervisado** para descubrir agrupaciones naturales entre 12 índices bursátiles de diferentes regiones del mundo.
 
@@ -94,7 +94,7 @@ Para cada mercado se construyen **8 métricas financieras** a partir de los reto
 
 ---
 
-## 🔄 Metodología
+## Metodología
 
 ```
 1. Descarga de precios de cierre (yfinance, desde 2019)
@@ -146,20 +146,7 @@ Para cada mercado se construyen **8 métricas financieras** a partir de los reto
 
 > **Shanghai y ASX** agrupan con mercados defensivos (México, FTSE) por su menor drawdown y volatilidad controlada.
 
-### ⚠️ Nota técnica
-
-La celda 13 genera un `ClusterWarning` de scipy al aplicar `linkage` sobre una matriz de distancias ya condensada. Para corregirlo:
-
-```python
-from scipy.spatial.distance import squareform
-
-# Convertir la matriz cuadrada a forma condensada antes del linkage
-Z_corr = linkage(squareform(distance), method="ward")
-```
-
----
-
-## ▶️ Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 ### 1. Clonar el repositorio
 
