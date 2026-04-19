@@ -45,7 +45,7 @@ A partir de datos históricos desde **enero 2019**, se construye un perfil cuant
 
 ---
 
-## 🛠 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![yfinance](https://img.shields.io/badge/yfinance-Data-0d6efd)
