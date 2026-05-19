@@ -94,32 +94,6 @@ Para cada mercado se construyen **8 métricas financieras** a partir de los reto
 
 ---
 
-## Metodología
-
-```
-1. Descarga de precios de cierre (yfinance, desde 2019)
-         ↓
-2. Cálculo de retornos diarios (pct_change)
-         ↓
-3. Feature Engineering (8 métricas por mercado)
-         ↓
-4. Escalado de datos (StandardScaler)
-         ↓
-5. Método Elbow → selección de k=3 clusters
-         ↓
-6. K-Means Clustering
-         ↓
-7. Visualización PCA (2 componentes)
-         ↓
-8. Matriz de correlación entre mercados
-         ↓
-9. Clustering Jerárquico (Ward, dendrograma)
-         ↓
-10. Clustering basado en distancia de correlación
-```
-
----
-
 ## 📊 Resultados
 
 ### Clusters obtenidos (K-Means, k=3)
